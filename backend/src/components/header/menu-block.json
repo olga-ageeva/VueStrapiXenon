@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_header_menu_blocks",
+  "info": {
+    "displayName": "menu_block"
+  },
+  "options": {},
+  "attributes": {
+    "menu_link": {
+      "type": "component",
+      "component": "header.menu-link",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
