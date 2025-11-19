@@ -6,13 +6,17 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [
-    vue(),
-    vueDevTools(),
-  ],
+  plugins: [vue(), vueDevTools()],
+
+  // 👉 Добавляем этот блок
+  server: {
+    port: 3000, // или любой свободный порт
+    host: true, // позволяет открывать проект по localhost и по сети
+  },
+
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
 })

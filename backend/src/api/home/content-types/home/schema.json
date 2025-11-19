@@ -10,5 +10,26 @@
     "draftAndPublish": true
   },
   "pluginOptions": {},
-  "attributes": {}
+  "attributes": {
+    "hero_cards": {
+      "type": "component",
+      "component": "home.hero-card",
+      "repeatable": true
+    },
+    "hero_headings": {
+      "type": "component",
+      "component": "home.hero-heading",
+      "repeatable": false
+    },
+    "solutions": {
+      "type": "component",
+      "component": "home.solution-card",
+      "repeatable": true
+    },
+    "cases": {
+      "type": "component",
+      "component": "home.case-card",
+      "repeatable": true
+    }
+  }
 }

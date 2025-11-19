@@ -1,0 +1,42 @@
+.text-md {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 300;
+  font-size: var(--text-md);
+  line-height: 100%;
+  letter-spacing: 5%;
+  color: var(--color-text-heading);
+}
+
+h1,
+.h1 {
+  font-family: 'Actay Wide', sans-serif;
+  font-weight: 700;
+  font-size: var(--h1-size);
+  line-height: 1;
+  letter-spacing: 5%;
+}
+
+h2,
+.h2 {
+  font-family: 'Actay Wide', sans-serif;
+  font-weight: 700;
+  font-size: var(--h2-size);
+  line-height: 1.05;
+  letter-spacing: 5%;
+}
+h3,
+.h3-lg {
+  font-family: 'Actay Wide', sans-serif;
+  font-weight: 700;
+  font-size: var(--h3-size-lg);
+  line-height: 1;
+  letter-spacing: 5%;
+}
+
+.h3-sm {
+  font-family: 'Actay Wide', sans-serif;
+  font-weight: 700;
+  font-size: var(--h3-size-sm);
+  line-height: 1;
+  letter-spacing: 5%;
+}

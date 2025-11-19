@@ -1,0 +1,48 @@
+:root {
+    --color-header-footer-bg: #2D353C;
+    --color-text-heading: #F5F7FA;
+    --color-text-secondary: #E9ECEF;
+    --color-btn-primary:  #F97316; 
+    --color-bg-primary: #1F252A;
+
+    --btn-radius: 10px;
+    --btn-card-input-radius: 15px;
+
+    --h1-size: 60px;
+    --h2-size: 48px;
+    --h3-size-lg: 28px;
+    --h3-size-sm: 25px;
+
+    --text-lg: 30px;
+    --text-md: 20px;
+    --text-sm: 15px;
+
+    /* Градиенты */
+--gradient-xenon: linear-gradient(
+  156.19deg,
+  #F97316 22.76%,
+  #CF7B38 38.84%,
+  #2A9BBE 79.41%,
+  #00A3E0 98.78%
+);
+
+--gradient-border: linear-gradient(
+  179.51deg,
+  #F97316 -38.71%,
+  #00A3E0 164.44%
+);
+
+--gradient-card: linear-gradient(
+  126.78deg,
+  rgba(249, 115, 22, 0.3) 16.52%,
+  rgba(216, 121, 49, 0.3) 34.71%,
+  rgba(71, 149, 167, 0.3) 68.82%,
+  rgba(0, 163, 224, 0.3) 94.36%
+);
+
+
+
+
+
+
+}
